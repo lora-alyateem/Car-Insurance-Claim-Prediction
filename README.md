@@ -1,4 +1,4 @@
-# 🚗 Car-Insurance-Claim-Prediction
+# 🚗 Car Insurance Prediction
 ## 📌 Context
 This project analyzes annual car insurance data to understand customer behavior related to insurance claims.
 The main objective is to identify patterns and features that influence whether a customer files a claim.
