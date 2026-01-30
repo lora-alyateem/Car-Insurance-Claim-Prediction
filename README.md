@@ -90,6 +90,9 @@ The following methods were applied:
 - The Random Forest with embedded feature selection delivered the strongest performance, explaining approximately 45% of the variance while maintaining high accuracy and interpretability.
 -  PCA-based models offered dimensionality reduction but underperformed slightly
 -   the Neural Network captured complex patterns yet exhibited moderate R² (~0.45) with mild overfitting.
+
+
+  
   **Overall, Random Forest with feature selection provided the most reliable and interpretable results; future work could explore further feature engineering or advanced models.**
 
 ## 💡 Insights & Inspiration
