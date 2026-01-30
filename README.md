@@ -62,24 +62,6 @@ Several feature engineering strategies were explored:
 
 These approaches were compared to evaluate their impact on model performance and overfitting.
 
-## 🤖 Modeling Approach
-
-The following methods were applied:
-
- - Random Forest Classifier
-
-- PCA-based modeling
-
-- Feature Selection–based modeling
-
-**Key Findings:**
-
- - Random Forest and Feature Selection showed the best performance and generalization
-
- - PCA reduced dimensionality but resulted in some loss of predictive power
-
- - Model evaluation focused on train vs test performance to control overfitting
-
 ## 📈 Evaluation Strategy
 
 - Train/Test split
@@ -90,6 +72,26 @@ The following methods were applied:
 
  - Performance comparison across different feature engineering techniques
  
+
+## 🤖 Modeling Approach
+
+The following methods were applied:
+
+ - Random Forest Classifier
+
+- PCA-based modeling
+
+- Feature Selection–based modeling
+ 
+- Neural Network (Deep Learning) with hyperparameter tuning 
+
+**Conclusion:**
+
+- The Random Forest with embedded feature selection delivered the strongest performance, explaining approximately 45% of the variance while maintaining high accuracy and interpretability.
+-  PCA-based models offered dimensionality reduction but underperformed slightly
+-   the Neural Network captured complex patterns yet exhibited moderate R² (~0.45) with mild overfitting.
+  **Overall, Random Forest with feature selection provided the most reliable and interpretable results; future work could explore further feature engineering or advanced models.**
+
 ## 💡 Insights & Inspiration
 
 This project highlights:
@@ -99,5 +101,6 @@ This project highlights:
 - The impact of feature engineering on model performance
 
 - How different dimensionality reduction techniques affect prediction quality
+- The role of Deep Learning (Neural Networks) in capturing complex non-linear patterns in the data
 
 The dataset is well-suited for exploring **insurance risk modeling and customer behavior analysis.**
